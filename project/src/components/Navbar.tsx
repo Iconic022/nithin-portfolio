@@ -45,11 +45,11 @@ const Navbar: React.FC = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <img
-            src="/gn-logo.png"  // Ensure this is the transparent image in public folder
-            alt="GN Logo"
+          <img src="/nithin-portfolio/gn-logo.png" 
+            alt="GN Logo" 
             className="w-full h-full object-contain drop-shadow-lg"
           />
+
         </motion.a>
 
         {/* Desktop Navigation */}
