@@ -46,10 +46,11 @@ const Navbar: React.FC = () => {
           whileTap={{ scale: 0.95 }}
         >
           <img
-            src="/gn-logo.png"
+            src={`${import.meta.env.BASE_URL}gn-logo.png`}
             alt="GN Logo"
             className="w-full h-full object-contain drop-shadow-lg"
           />
+
 
 
         </motion.a>
